@@ -109,7 +109,7 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: linear-gradient(70deg, $header-bg-color, 15%, $header-bg-color-secondary);
+  background-image: url("https://github.com/Shopsim/closim/blob/gh-pages/logo%20shopsim%20png.png");
 
   @include large {
     padding: 3rem 4rem;
