@@ -108,8 +108,9 @@ a {
 .page-header {
   color: $header-heading-color;
   text-align: left;
-  background-image:  url("shopsim.png");
-  backgound-size: 4em 8em;
+  background-image: url("shopsim.png");
+  background-size: cover;
+  position: relative;
 
 
 
