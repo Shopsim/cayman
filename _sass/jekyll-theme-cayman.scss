@@ -109,7 +109,7 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color, 20%, $header-bg-color-secondary);
+  background-image: linear-gradient(70deg, $header-bg-color, 15%, $header-bg-color-secondary);
 
   @include large {
     padding: 3rem 4rem;
@@ -167,18 +167,18 @@ a {
   }
 
   @include large {
-    padding: 2rem 6rem;
+    padding: 1rem 5rem;
     margin: 0 auto;
     font-size: 1.1rem;
   }
 
   @include medium {
-    padding: 2rem 4rem;
+    padding: 1rem 3rem;
     font-size: 1.1rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: 1rem 0.5rem;
     font-size: 1rem;
   }
   
