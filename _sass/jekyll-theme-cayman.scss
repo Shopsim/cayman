@@ -108,9 +108,6 @@ a {
 .page-header {
   color: $header-heading-color;
   text-align: center;
-  background-image: url("https://github.com/Shopsim/closim/blob/gh-pages/shopsim.png");
-  background-size: cover;
-  background-attachment: fixed;
 
 
   @include large {
