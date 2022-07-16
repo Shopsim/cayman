@@ -211,9 +211,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    background: -webkit-linear-gradient(header-bg-color, header-bg-color-secondary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: $section-headings-color;
   }
 
   p {
