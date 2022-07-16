@@ -27,6 +27,13 @@
       {{ content }}
 
     </main>
-    <script type="text/javascript">document.getElementById("phrase").innerHTML = "Hello JavaScript!";</script>
+    <script type="text/javascript">
+      const array = [
+        'Вы так прекрасны в одежде Closim!'
+        'Сегодня лучший день для шопинга!',
+        'Выглядишь клёво в одежде Closim!'
+      ];
+      document.getElementById("phrase").innerHTML = array[Math.floor(Math.random() * arr.length)];
+    </script>
   </body>
 </html>
