@@ -115,14 +115,14 @@ a {
 
 
   @include large {
-    padding: 3rem 8rem;
+    padding: 3rem 16rem;
   }
 
   @include medium {
-    padding: 1rem 4rem;
+    padding: 1rem 8rem;
   }
   @include small {
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
   }
 }
 
