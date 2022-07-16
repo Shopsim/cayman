@@ -211,7 +211,8 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: $section-headings-color;
+    background-image: linear-gradient(120, header-bg-color, header-bg-color-secondary);
+
   }
 
   p {
