@@ -1,7 +1,23 @@
 @import "normalize";
 @import "rouge-github";
 @import "variables";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+@font-face {
+  font-family: "Katona";
+  font-style: normal;
+  font-display: swap;
+  src: local("Katona"),
+       url('Katona.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: "pt-root-ui-2-0-light";
+  font-style: normal;
+  font-display: swap;
+  src: local("pt-root-ui-2-0-light"),
+       url('pt-root-ui-2-0-light.ttf') format('truetype'),
+}
+
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -28,7 +44,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "pt-root-ui-2-0-light", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
@@ -212,6 +228,7 @@ a {
     margin-bottom: 1rem;
     font-weight: normal;
     color: $section-headings-color;
+    font-family: "Katona", sans-serif;
   }
 
   p {
